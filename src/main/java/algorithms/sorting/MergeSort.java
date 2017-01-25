@@ -14,8 +14,7 @@ public class MergeSort {
         BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
         System.out.print("Enter numbers separated by a space: ");
         try {
-            String line = reader.readLine();
-            String[] characters = line.split(" ");
+            String[] characters = reader.readLine().split(" ");
             int[] numbers = new int[characters.length];
             for (int i = 0; i < numbers.length; i++) {
                 numbers[i] = Integer.parseInt(characters[i]);
