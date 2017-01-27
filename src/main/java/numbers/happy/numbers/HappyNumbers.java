@@ -1,8 +1,6 @@
 package numbers.happy.numbers;
 
-import java.io.BufferedReader;
-import java.io.IOException;
-import java.io.InputStreamReader;
+import java.util.ArrayList;
 
 /**
  * Created by MHSL on 21.01.2017.
@@ -15,21 +13,31 @@ import java.io.InputStreamReader;
 public class HappyNumbers {
     
     public static void main(String[] args) {
-        BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
-        try {
-            int n = Integer.parseInt(reader.readLine());
-            while (n != 1) {
-                int temp = n;
-                n = 0;
-                while (temp > 0) {
-                    n += Math.pow(temp % 10, 2);
-                    temp /= 10;
-                }
-                System.out.println(n);
+        System.out.println("First happy numbers: ");
+        int count = 0, start = 100;
+        while (count < 8) {
+            if (isHappy(start)) {
+                System.out.print(start + " ");
+                count++;
             }
-            System.out.println("It's the happy number");
-        } catch (IOException e) {
-            e.printStackTrace();
+            start++;
         }
+    }
+    
+    public static boolean isHappy(int n) {
+        ArrayList<Integer> list = new ArrayList<Integer>();
+        while (n != 1) {
+            list.add(n);
+            int sum = 0;
+            while (n != 0) {
+                sum += Math.pow(n % 10, 2);
+                n /= 10;
+            }
+            n = sum;
+            if (list.contains(n)) {
+                return false;
+            }
+        }
+        return true;
     }
 }
