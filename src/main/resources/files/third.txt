@@ -1,0 +1,4 @@
+It is third file!
+It has been created to test inverted index data structure.
+I hope, that this realisation is good and pretty fast.
+2 h2 -h

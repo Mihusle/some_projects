@@ -1,0 +1,3 @@
+It is first file!
+It has been created to test inverted index data structure.
+I hope, that this fucking realisation is good and pretty fast.
