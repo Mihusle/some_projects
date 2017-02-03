@@ -1,4 +1,4 @@
-package text;
+package text.reverse;
 
 /**
  * Created by MHSL on 03.02.2017.
