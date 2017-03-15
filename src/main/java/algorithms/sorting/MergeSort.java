@@ -1,32 +1,17 @@
 package algorithms.sorting;
 
-import java.io.BufferedReader;
-import java.io.IOException;
-import java.io.InputStreamReader;
 import java.util.Arrays;
 
 /**
  * Created by MHSL on 24.01.2017.
+ *
+ * This is a realization of the merge sorting.
  */
 public class MergeSort {
     
     public static void main(String[] args) {
-        BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
-        System.out.print("Enter numbers separated by a space: ");
-        try {
-            String[] characters = reader.readLine().split(" ");
-            int[] numbers = new int[characters.length];
-            for (int i = 0; i < numbers.length; i++) {
-                numbers[i] = Integer.parseInt(characters[i]);
-            }
-            for (int n : mergeSort(numbers)) {
-                System.out.print(n + " ");
-            }
-        } catch (IOException e) {
-            e.printStackTrace();
-        } catch (NumberFormatException e) {
-            e.printStackTrace();
-        }
+        int[] numbers = Utils.inputNumbersArray();
+        Utils.printNumbersArray(mergeSort(numbers));
     }
     
     public static int[] mergeSort(int[] array) {
