@@ -1,4 +1,5 @@
-import datastructures.stack.SimpleStack;
+package datastructures.stack;
+
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
@@ -15,7 +16,7 @@ public class SimpleStackTest {
     @Before
     public void setUp() {
         stack = new SimpleStack<>(Integer.class, LENGTH);
-        testValue = 100;
+        testValue = 1;
     }
     
     @Test
@@ -39,5 +40,25 @@ public class SimpleStackTest {
         final int actualValue = stack.pop();
         Assert.assertEquals("Unexpected value after pop", testValue, actualValue);
         Assert.assertEquals("Unexpected size of stack after pop", 0, stack.size());
+    }
+    
+    @Test
+    public void simpleStackIsFullTest() {
+        for (int i = 0; i < LENGTH; i++) {
+            stack.push(testValue);
+        }
+        Assert.assertEquals("The stack should be full", true, stack.isFull());
+    }
+    
+    @Test
+    public void simpleStackIsEmptyTest() {
+        Assert.assertEquals("The stack should be empty", true, stack.isEmpty());
+        for (int i = 0; i < LENGTH; i++) {
+            stack.push(testValue);
+        }
+        for (int i = 0; i < LENGTH; i++) {
+            stack.pop();
+        }
+        Assert.assertEquals("The stack should be empty", true, stack.isEmpty());
     }
 }

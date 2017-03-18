@@ -23,12 +23,12 @@ public class SimpleStack<T> {
         if (!isFull()) {
             array[currentPosition++] = element;
         }
+        //It should throw some exception otherwise.
     }
     
     public T peek() {
         if (!isEmpty()) {
-            T element = array[--currentPosition];
-            currentPosition++;
+            T element = array[currentPosition-1];
             return element;
         }
         return null;
