@@ -1,18 +1,14 @@
 package datastructures.linkedlist;
 
-
 /**
- * Created by MHSL on 18.03.2017.
- *
- * This is the realization of a linked list with access only from the beginning.
+ * Created by MHSL on 01.04.2017.
  */
-public class FirstLinkedList<T> implements LinkedList<T> {
+public class FirstLastLinkedList<T> implements LinkedList<T> {
     
-    private Entry<T> first;
+    private Entry<T> first, last;
     private int size;
     
-    /*I couldn't make this constructor, but it shows meaning of initial value clearly.*/
-    public FirstLinkedList() {
+    public FirstLastLinkedList() {
         first = null;
         size = 0;
     }
@@ -25,11 +21,32 @@ public class FirstLinkedList<T> implements LinkedList<T> {
         return null;
     }
     
+    public T getLast() {
+        if (!isEmpty()) {
+            return last.getElement();
+        }
+        return null;
+    }
+    
     @Override
     public void add(T element) {
         Entry<T> entry = new Entry<>(element);
         entry.setNext(first);
         first = entry;
+        if (isEmpty()) {
+            last = entry;
+        }
+        size++;
+    }
+    
+    public void addLast(T element) {
+        Entry<T> entry = new Entry<>(element);
+        if (isEmpty()) {
+            first = entry;
+        } else {
+            last.setNext(entry);
+        }
+        last = entry;
         size++;
     }
     
@@ -58,8 +75,8 @@ public class FirstLinkedList<T> implements LinkedList<T> {
                 size--;
                 return temp.getElement();
             } else {
-                Entry<T> previousEntry = first;
                 Entry<T> currentEntry = first;
+                Entry<T> previousEntry = first;
                 for (int i = 0; i < index; i++) {
                     previousEntry = currentEntry;
                     currentEntry = currentEntry.getNext();
@@ -79,7 +96,7 @@ public class FirstLinkedList<T> implements LinkedList<T> {
     
     @Override
     public boolean isEmpty() {
-        return first == null && size == 0;
+        return size == 0;
     }
     
     private class Entry<E> {
@@ -90,19 +107,19 @@ public class FirstLinkedList<T> implements LinkedList<T> {
         Entry(E element) {
             this.element = element;
         }
-    
+        
         E getElement() {
             return element;
         }
-    
+        
         void setElement(E element) {
             this.element = element;
         }
-    
+        
         Entry<E> getNext() {
             return next;
         }
-    
+        
         void setNext(Entry<E> next) {
             this.next = next;
         }

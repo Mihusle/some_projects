@@ -1,7 +1,5 @@
 package algorithms.sorting;
 
-import java.util.Arrays;
-
 /**
  * Created by MHSL on 24.01.2017.
  *
@@ -9,46 +7,58 @@ import java.util.Arrays;
  */
 public class MergeSort {
     
+    private int[] numbers;
+    
     public static void main(String[] args) {
-        int[] numbers = Utils.inputNumbersArray();
-        Utils.printNumbersArray(mergeSort(numbers));
+        MergeSort mergeSort = new MergeSort();
+        mergeSort.setNumbers(Utils.inputNumbersArray());
+        mergeSort.mergeSort();
+        Utils.printNumbersArray(mergeSort.getNumbers());
     }
     
-    public static int[] mergeSort(int[] array) {
-        if (array.length > 2) {
-            int[] rightPart;
-            int[] leftPart;
-            int[] result = new int[array.length];
-            int rightIndex = 0;
-            int leftIndex = 0;
-            rightPart = mergeSort(Arrays.copyOfRange(array, 0, array.length / 2));
-            leftPart = mergeSort(Arrays.copyOfRange(array, array.length / 2, array.length));
-            for (int i = 0; i < result.length; i++) {
-                if (rightIndex < rightPart.length && leftIndex < leftPart.length) {
-                    if (rightPart[rightIndex] < leftPart[leftIndex]) {
-                        result[i] = rightPart[rightIndex];
-                        rightIndex++;
-                    } else {
-                        result[i] = leftPart[leftIndex];
-                        leftIndex++;
-                    }
-                } else if (rightIndex < rightPart.length && leftIndex == leftPart.length) {
-                    result[i] = rightPart[rightIndex];
-                    rightIndex++;
-                } else if (rightIndex == rightPart.length && leftIndex < leftPart.length) {
-                    result[i] = leftPart[leftIndex];
-                    leftIndex++;
-                }
-            }
-            return result;
-        } else if (array.length == 2) {
-            if (array[0] > array[1]) {
-                int temp;
-                temp = array[1];
-                array[1] = array[0];
-                array[0] = temp;
+    void mergeSort() {
+        int[] temp = new int[numbers.length];
+        mergeSort(temp, 0, numbers.length - 1);
+    }
+    
+    private void mergeSort(int[] temp, int start, int end) {
+        if (start == end) {
+            return;
+        }
+        int middle = (start + end) / 2;
+        mergeSort(temp, start, middle);
+        mergeSort(temp, middle+1, end);
+        merge(temp, start, middle+1, end);
+    }
+    
+    private void merge(int[] temp, int start, int middle, int end) {
+        int i = 0;
+        int border = middle - 1;
+        int copyStart = start;
+        int length = end - start + 1;
+        while (start <= border && middle <= end) {
+            if (numbers[start] < numbers[middle]) {
+                temp[i++] = numbers[start++];
+            } else {
+                temp[i++] = numbers[middle++];
             }
         }
-        return array;
+        while (start <= border) {
+            temp[i++] = numbers[start++];
+        }
+        while (middle <= end) {
+            temp[i++] = numbers[end++];
+        }
+        for (i = 0; i < length; i++) {
+            numbers[copyStart+i] = temp[i];
+        }
+    }
+    
+    public int[] getNumbers() {
+        return numbers;
+    }
+    
+    public void setNumbers(int[] numbers) {
+        this.numbers = numbers;
     }
 }

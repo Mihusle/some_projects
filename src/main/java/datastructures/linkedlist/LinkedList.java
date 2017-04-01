@@ -31,6 +31,14 @@ public interface LinkedList<T> {
      * @return element with the according index from a linked list.
      */
     T remove(int index);
+    
+    /**
+     * @return size of a linked list
+     */
     int size();
+    
+    /**
+     * @return true if a linked list is empty
+     *         false if the linked list isn't empty*/
     boolean isEmpty();
 }
