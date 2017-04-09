@@ -7,15 +7,8 @@ package datastructures.linkedlist;
  */
 public interface LinkedList<T> {
     
-    /**
-     * @return first element of a linked list
-     */
     T getFirst();
     
-    /**
-     * Add new element in a linked list.
-     * @param element - element which will be added in a linked list.
-     */
     void add(T element);
     
     /**
@@ -32,13 +25,9 @@ public interface LinkedList<T> {
      */
     T remove(int index);
     
-    /**
-     * @return size of a linked list
-     */
+    T removeFirst();
+    
     int size();
     
-    /**
-     * @return true if a linked list is empty
-     *         false if the linked list isn't empty*/
     boolean isEmpty();
 }

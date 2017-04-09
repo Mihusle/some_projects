@@ -10,6 +10,7 @@ public class FirstLastLinkedList<T> implements LinkedList<T> {
     
     public FirstLastLinkedList() {
         first = null;
+        last = null;
         size = 0;
     }
     
@@ -24,6 +25,22 @@ public class FirstLastLinkedList<T> implements LinkedList<T> {
     public T getLast() {
         if (!isEmpty()) {
             return last.getElement();
+        }
+        return null;
+    }
+    
+    @Override
+    public T get(int index) {
+        if (!isEmpty()) {
+            if (index == 0) {
+                return first.getElement();
+            } else {
+                Entry<T> currentEntry = first;
+                for (int i = 0; i < index; i++) {
+                    currentEntry = currentEntry.getNext();
+                }
+                return currentEntry.getElement();
+            }
         }
         return null;
     }
@@ -51,22 +68,6 @@ public class FirstLastLinkedList<T> implements LinkedList<T> {
     }
     
     @Override
-    public T get(int index) {
-        if (!isEmpty()) {
-            if (index == 0) {
-                return first.getElement();
-            } else {
-                Entry<T> currentEntry = first;
-                for (int i = 0; i < index; i++) {
-                    currentEntry = currentEntry.getNext();
-                }
-                return currentEntry.getElement();
-            }
-        }
-        return null;
-    }
-    
-    @Override
     public T remove(int index) {
         if (!isEmpty()) {
             if (index == 0) {
@@ -85,6 +86,20 @@ public class FirstLastLinkedList<T> implements LinkedList<T> {
                 size--;
                 return currentEntry.getElement();
             }
+        }
+        return null;
+    }
+    
+    @Override
+    public T removeFirst() {
+        if (!isEmpty()) {
+            T element = first.getElement();
+            first = first.getNext();
+            if (first == null) {
+                last = null;
+            }
+            size--;
+            return element;
         }
         return null;
     }

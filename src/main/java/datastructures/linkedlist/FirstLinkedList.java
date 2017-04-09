@@ -73,6 +73,17 @@ public class FirstLinkedList<T> implements LinkedList<T> {
     }
     
     @Override
+    public T removeFirst() {
+        if (!isEmpty()) {
+            T element = first.getElement();
+            first = first.getNext();
+            size--;
+            return element;
+        }
+        return null;
+    }
+    
+    @Override
     public int size() {
         return size;
     }
