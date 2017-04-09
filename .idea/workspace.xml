@@ -2,12 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="363286f9-998e-4a95-b129-2c7388843bca" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/datastructures/linkedlist/FirstLastLinkedListTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/datastructures/queue/LinkedQueue.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/datastructures/stack/LinkedStack.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/datastructures/stack/Stack.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/datastructures/queue/LinkedQueueTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/datastructures/stack/LinkedStackTest.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/datastructures/linkedlist/FirstLastLinkedList.java" afterPath="$PROJECT_DIR$/src/main/java/datastructures/linkedlist/FirstLastLinkedList.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/datastructures/linkedlist/FirstLinkedList.java" afterPath="$PROJECT_DIR$/src/main/java/datastructures/linkedlist/FirstLinkedList.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/datastructures/linkedlist/LinkedList.java" afterPath="$PROJECT_DIR$/src/main/java/datastructures/linkedlist/LinkedList.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/datastructures/linkedlist/FirstLinkedListTest.java" afterPath="$PROJECT_DIR$/src/test/java/datastructures/linkedlist/FirstLinkedListTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/datastructures/stack/SimpleStack.java" afterPath="$PROJECT_DIR$/src/main/java/datastructures/stack/SimpleStack.java" />
     </list>
     <ignored path="MyTasks.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -56,11 +57,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/datastructures/invertedindex/files/second.txt" />
-        <option value="$PROJECT_DIR$/src/main/java/datastructures/invertedindex/files/first.txt" />
-        <option value="$PROJECT_DIR$/src/main/java/datastructures/invertedindex/files/third.txt" />
-        <option value="$PROJECT_DIR$/src/main/resources/files/third.txt" />
-        <option value="$PROJECT_DIR$/src/main/java/datastructures/invertedindex/Solution.java" />
         <option value="$PROJECT_DIR$/src/main/java/datastructures/invertedindex/InvertedIndex.java" />
         <option value="$PROJECT_DIR$/src/main/java/text/ReverseString.java" />
         <option value="$PROJECT_DIR$/src/main/java/text/reverse/ReverseString.java" />
@@ -94,7 +90,6 @@
         <option value="$PROJECT_DIR$/src/main/java/datastructures/stack/SimpleStackTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/SimpleStackTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/datastructures/Queue.java" />
-        <option value="$PROJECT_DIR$/src/main/java/datastructures/stack/SimpleStack.java" />
         <option value="$PROJECT_DIR$/src/test/java/datastructures/stack/SimpleStackTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/datastructures/queue/Queue.java" />
         <option value="$PROJECT_DIR$/src/main/java/datastructures/queue/SimpleQueue.java" />
@@ -107,6 +102,12 @@
         <option value="$PROJECT_DIR$/src/main/java/datastructures/linkedlist/FirstLastLinkedList.java" />
         <option value="$PROJECT_DIR$/src/test/java/datastructures/linkedlist/FirstLinkedListTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/datastructures/linkedlist/FirstLastLinkedListTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/datastructures/stack/Stack.java" />
+        <option value="$PROJECT_DIR$/src/main/java/datastructures/stack/SimpleStack.java" />
+        <option value="$PROJECT_DIR$/src/main/java/datastructures/stack/LinkedStack.java" />
+        <option value="$PROJECT_DIR$/src/main/java/datastructures/queue/LinkedQueue.java" />
+        <option value="$PROJECT_DIR$/src/test/java/datastructures/queue/LinkedQueueTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/datastructures/stack/LinkedStackTest.java" />
       </list>
     </option>
   </component>
@@ -206,6 +207,10 @@
               <option name="myItemId" value="datastructures" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="stack" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -233,7 +238,33 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="linkedlist" />
+              <option name="myItemId" value="queue" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MyTasks" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MyTasks" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="datastructures" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -300,6 +331,36 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="datastructures" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MyTasks" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MyTasks" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="datastructures" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="queue" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -359,79 +420,7 @@
       <recent name="C:\Users\Влад\IdeaProjects\MyTasks\src\main\resources\files" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.FirstLastLinkedListTest">
-    <configuration default="false" name="FirstLinkedListTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="datastructures.linkedlist.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="MyTasks" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="datastructures.linkedlist" />
-      <option name="MAIN_CLASS_NAME" value="datastructures.linkedlist.FirstLinkedListTest" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
-    <configuration default="false" name="FirstLinkedListTest.testGet" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="datastructures.linkedlist.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="MyTasks" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="datastructures.linkedlist" />
-      <option name="MAIN_CLASS_NAME" value="datastructures.linkedlist.FirstLinkedListTest" />
-      <option name="METHOD_NAME" value="testGet" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
-    <configuration default="false" name="MergeSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="algorithms.sorting.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="algorithms.sorting.MergeSort" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="MyTasks" />
-      <envs />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="JUnit.LinkedStackTest">
     <configuration default="false" name="FirstLinkedListTest.testRemoveFirst" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -472,6 +461,84 @@
       <option name="MAIN_CLASS_NAME" value="datastructures.linkedlist.FirstLastLinkedListTest" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="LinkedStackTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="datastructures.stack.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="MyTasks" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="datastructures.stack" />
+      <option name="MAIN_CLASS_NAME" value="datastructures.stack.LinkedStackTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="LinkedQueueTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="datastructures.queue.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="MyTasks" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="datastructures.queue" />
+      <option name="MAIN_CLASS_NAME" value="datastructures.queue.LinkedQueueTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="LinkedStackTest.pushTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="datastructures.stack.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="MyTasks" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="datastructures.stack" />
+      <option name="MAIN_CLASS_NAME" value="datastructures.stack.LinkedStackTest" />
+      <option name="METHOD_NAME" value="pushTest" />
+      <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
@@ -921,19 +988,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.FirstLinkedListTest" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.FirstLinkedListTest.testGet" />
-      <item index="2" class="java.lang.String" itemvalue="Application.MergeSort" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.FirstLinkedListTest.testRemoveFirst" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.FirstLastLinkedListTest" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.FirstLinkedListTest.testRemoveFirst" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.FirstLastLinkedListTest" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.LinkedStackTest" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.LinkedQueueTest" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.LinkedStackTest.pushTest" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.FirstLastLinkedListTest" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.FirstLinkedListTest.testRemoveFirst" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.FirstLinkedListTest" />
-        <item index="3" class="java.lang.String" itemvalue="Application.MergeSort" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.FirstLinkedListTest.testGet" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.LinkedStackTest" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.LinkedStackTest.pushTest" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.LinkedQueueTest" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.FirstLastLinkedListTest" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.FirstLinkedListTest.testRemoveFirst" />
       </list>
     </recent_temporary>
   </component>
@@ -982,7 +1049,7 @@
       <workItem from="1490517150597" duration="19000" />
       <workItem from="1491068542234" duration="4600000" />
       <workItem from="1491126854713" duration="223000" />
-      <workItem from="1491745607304" duration="2100000" />
+      <workItem from="1491745607304" duration="3635000" />
     </task>
     <task id="LOCAL-00001" summary="Added tasks about collatz conjecture and merge sorting">
       <created>1485356335439</created>
@@ -1082,33 +1149,40 @@
       <option name="project" value="LOCAL" />
       <updated>1491073130992</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="- Added additional methods in:&#10;  * FirstLinkedList&#10;  * FirstLastLinkedList&#10;- Added tests for:&#10;  * new methods in FirstLinkedList&#10;  * FirstLastLinkedList methods">
+      <created>1491747825476</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1491747825476</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TestHistory">
     <history-entry file="FirstLastLinkedListTest - 2017.04.09 at 17h 21m 31s.xml">
       <configuration name="FirstLastLinkedListTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FirstLinkedListTest - 2017.04.01 at 21h 33m 07s.xml">
-      <configuration name="FirstLinkedListTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="FirstLinkedListTest_testGet - 2017.03.26 at 00h 37m 37s.xml">
-      <configuration name="FirstLinkedListTest.testGet" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="FirstLinkedListTest_testGet - 2017.03.26 at 00h 42m 02s.xml">
-      <configuration name="FirstLinkedListTest.testGet" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="FirstLinkedListTest_testGet - 2017.03.26 at 00h 43m 54s.xml">
-      <configuration name="FirstLinkedListTest.testGet" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="FirstLinkedListTest_testRemoveFirst - 2017.04.09 at 17h 04m 31s.xml">
       <configuration name="FirstLinkedListTest.testRemoveFirst" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SimpleQueueTest_simpleQueueLoopTest - 2017.03.17 at 18h 50m 26s.xml">
-      <configuration name="SimpleQueueTest.simpleQueueLoopTest" configurationId="JUnit" />
+    <history-entry file="LinkedQueueTest - 2017.04.09 at 17h 46m 30s.xml">
+      <configuration name="LinkedQueueTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SimpleQueueTest_simpleQueueLoopTest - 2017.03.17 at 18h 50m 43s.xml">
-      <configuration name="SimpleQueueTest.simpleQueueLoopTest" configurationId="JUnit" />
+    <history-entry file="LinkedQueueTest - 2017.04.09 at 17h 46m 44s.xml">
+      <configuration name="LinkedQueueTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LinkedStackTest - 2017.04.09 at 17h 36m 36s.xml">
+      <configuration name="LinkedStackTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LinkedStackTest - 2017.04.09 at 17h 46m 50s.xml">
+      <configuration name="LinkedStackTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LinkedStackTest - 2017.04.09 at 17h 47m 44s.xml">
+      <configuration name="LinkedStackTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LinkedStackTest_pushTest - 2017.04.09 at 17h 47m 39s.xml">
+      <configuration name="LinkedStackTest.pushTest" configurationId="JUnit" />
     </history-entry>
     <history-entry file="SimpleStackTest_simpleStackIsEmptyTest - 2017.03.17 at 18h 56m 07s.xml">
       <configuration name="SimpleStackTest.simpleStackIsEmptyTest" configurationId="JUnit" />
@@ -1118,7 +1192,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="108090000" />
+    <option name="totallyTimeSpent" value="109625000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1204,7 +1278,8 @@
     <MESSAGE value=" - Added junit dependency into the project&#10; - Added realization of:&#10;    * selection sorting&#10;    * insertion sorting&#10; - Added utils class with useful methods for testing arrays&#10; - Added simple realization of stack with an array as a base&#10; - Added tests for SimpleStack&#10; - Altered bubble sorting and merge sorting with new utils" />
     <MESSAGE value=" - Added base interfaces for queue and linked list&#10; - Added realization of:&#10;   * simple queue with an array as a base&#10;   * priority queue&#10;   * linked list with an access from the beginning (need to test)&#10;- Added tests for:&#10;   * simple queue&#10;   * priority queue&#10;   *simple stack" />
     <MESSAGE value=" - Added realization of:&#10;   * linked list with a reference on the last element (need to test)&#10;- Added tests for:&#10;   * linked list with an access from the first element&#10;- Optimized the task about the merge sorting" />
-    <option name="LAST_COMMIT_MESSAGE" value=" - Added realization of:&#10;   * linked list with a reference on the last element (need to test)&#10;- Added tests for:&#10;   * linked list with an access from the first element&#10;- Optimized the task about the merge sorting" />
+    <MESSAGE value="- Added additional methods in:&#10;  * FirstLinkedList&#10;  * FirstLastLinkedList&#10;- Added tests for:&#10;  * new methods in FirstLinkedList&#10;  * FirstLastLinkedList methods" />
+    <option name="LAST_COMMIT_MESSAGE" value="- Added additional methods in:&#10;  * FirstLinkedList&#10;  * FirstLastLinkedList&#10;- Added tests for:&#10;  * new methods in FirstLinkedList&#10;  * FirstLastLinkedList methods" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1217,41 +1292,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/text/reverse/ReverseString.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/text/palindrome/Palindrome.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="59" selection-start-line="17" selection-start-column="59" selection-end-line="17" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/datastructures/invertedindex/InvertedIndex.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="65" column="4" selection-start-line="65" selection-start-column="4" selection-end-line="76" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/files/first.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="62" selection-start-line="2" selection-start-column="62" selection-end-line="2" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/text/words/counter/WordsCounter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="25" column="26" selection-start-line="25" selection-start-column="26" selection-end-line="25" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/with/gui/notepad.java" />
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_77/src.zip!/java/awt/Color.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -1450,27 +1490,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/datastructures/stack/SimpleStack.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="30" column="47" selection-start-line="30" selection-start-column="47" selection-end-line="30" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/datastructures/queue/Queue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="23" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/datastructures/queue/SimpleQueue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="952">
-          <caret line="66" column="13" selection-start-line="66" selection-start-column="13" selection-end-line="66" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_77/src.zip!/java/lang/Comparable.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="282">
@@ -1549,7 +1568,7 @@
         <state relative-caret-position="-374">
           <caret line="10" column="21" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1570,6 +1589,87 @@
             <element signature="e#2680#2681#0" expanded="true" />
             <element signature="e#2712#2713#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/datastructures/stack/Stack.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="15" selection-start-line="11" selection-start-column="15" selection-end-line="11" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/datastructures/stack/SimpleStack.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="690">
+          <caret line="55" column="13" selection-start-line="55" selection-start-column="13" selection-end-line="55" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/datastructures/queue/Queue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="23" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/datastructures/queue/SimpleQueue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="539">
+          <caret line="66" column="13" selection-start-line="66" selection-start-column="13" selection-end-line="66" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/datastructures/queue/LinkedQueue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="629">
+          <caret line="37" column="32" selection-start-line="37" selection-start-column="32" selection-end-line="37" selection-end-column="32" />
+          <folding>
+            <element signature="e#260#261#0" expanded="true" />
+            <element signature="e#316#317#0" expanded="true" />
+            <element signature="e#356#357#0" expanded="true" />
+            <element signature="e#403#404#0" expanded="true" />
+            <element signature="e#444#445#0" expanded="true" />
+            <element signature="e#488#489#0" expanded="true" />
+            <element signature="e#541#542#0" expanded="true" />
+            <element signature="e#584#585#0" expanded="true" />
+            <element signature="e#634#635#0" expanded="true" />
+            <element signature="e#677#678#0" expanded="true" />
+            <element signature="e#720#721#0" expanded="true" />
+            <element signature="e#760#761#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/datastructures/queue/LinkedQueueTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="10" column="18" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/datastructures/stack/LinkedStackTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="20" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/datastructures/stack/LinkedStack.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding />
         </state>
       </provider>
     </entry>

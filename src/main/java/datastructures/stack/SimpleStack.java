@@ -7,7 +7,7 @@ import java.lang.reflect.Array;
  *
  * This is a realization of the stack with array as a base. So size of this stack is fixed.
  */
-public class SimpleStack<T> {
+public class SimpleStack<T> implements Stack<T> {
     
     private T[] array;
     private int currentPosition;
@@ -19,6 +19,7 @@ public class SimpleStack<T> {
         currentPosition = 0;
     }
     
+    @Override
     public void push(T element) {
         if (!isFull()) {
             array[currentPosition++] = element;
@@ -26,6 +27,7 @@ public class SimpleStack<T> {
         //It should throw some exception otherwise.
     }
     
+    @Override
     public T peek() {
         if (!isEmpty()) {
             T element = array[currentPosition-1];
@@ -34,6 +36,7 @@ public class SimpleStack<T> {
         return null;
     }
     
+    @Override
     public T pop() {
         if (!isEmpty()) {
             return array[--currentPosition];
@@ -45,10 +48,12 @@ public class SimpleStack<T> {
         return currentPosition == array.length;
     }
     
+    @Override
     public boolean isEmpty() {
         return currentPosition == 0;
     }
     
+    @Override
     public int size() {
         return currentPosition;
     }
