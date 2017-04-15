@@ -8,8 +8,8 @@ package datastructures.linkedlist;
  */
 public class FirstLinkedList<T> implements LinkedList<T> {
     
-    private Entry<T> first;
-    private int size;
+    protected Entry<T> first;
+    protected int size;
     
     /*I couldn't make this constructor, but it shows meaning of initial value clearly.*/
     public FirstLinkedList() {
@@ -93,7 +93,7 @@ public class FirstLinkedList<T> implements LinkedList<T> {
         return first == null && size == 0;
     }
     
-    private class Entry<E> {
+    protected class Entry<E> {
         
         private E element;
         private Entry<E> next;

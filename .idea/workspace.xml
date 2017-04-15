@@ -2,13 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="363286f9-998e-4a95-b129-2c7388843bca" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/datastructures/queue/LinkedQueue.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/datastructures/stack/LinkedStack.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/datastructures/stack/Stack.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/datastructures/queue/LinkedQueueTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/datastructures/stack/LinkedStackTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/datastructures/linkedlist/SortedLinkedList.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/interview/Inter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/interview/Interview.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/interview/Successor.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/datastructures/linkedlist/SortedLinkedListTest.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/datastructures/stack/SimpleStack.java" afterPath="$PROJECT_DIR$/src/main/java/datastructures/stack/SimpleStack.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/datastructures/linkedlist/FirstLinkedList.java" afterPath="$PROJECT_DIR$/src/main/java/datastructures/linkedlist/FirstLinkedList.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/datastructures/linkedlist/FirstLastLinkedListTest.java" afterPath="$PROJECT_DIR$/src/test/java/datastructures/linkedlist/FirstLastLinkedListTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/datastructures/linkedlist/FirstLinkedListTest.java" afterPath="$PROJECT_DIR$/src/test/java/datastructures/linkedlist/FirstLinkedListTest.java" />
     </list>
     <ignored path="MyTasks.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -57,11 +59,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/datastructures/invertedindex/InvertedIndex.java" />
-        <option value="$PROJECT_DIR$/src/main/java/text/ReverseString.java" />
-        <option value="$PROJECT_DIR$/src/main/java/text/reverse/ReverseString.java" />
-        <option value="$PROJECT_DIR$/src/main/java/text/fizzbuzz/FizzBuzz.java" />
-        <option value="$PROJECT_DIR$/src/main/java/text/pig/latin/PigLatin.java" />
         <option value="$PROJECT_DIR$/src/main/java/text/vowel/counter/VowelCounter.java" />
         <option value="$PROJECT_DIR$/src/main/java/text/palindrome/Palindrome.java" />
         <option value="$PROJECT_DIR$/src/main/java/text/words/counter/WordsCounter.java" />
@@ -98,16 +95,21 @@
         <option value="$PROJECT_DIR$/src/test/java/datastructures/queue/PriorityQueueTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/algorithms/sorting/MergeSort.java" />
         <option value="$PROJECT_DIR$/src/main/java/datastructures/linkedlist/LinkedList.java" />
-        <option value="$PROJECT_DIR$/src/main/java/datastructures/linkedlist/FirstLinkedList.java" />
         <option value="$PROJECT_DIR$/src/main/java/datastructures/linkedlist/FirstLastLinkedList.java" />
-        <option value="$PROJECT_DIR$/src/test/java/datastructures/linkedlist/FirstLinkedListTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/datastructures/linkedlist/FirstLastLinkedListTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/datastructures/stack/Stack.java" />
         <option value="$PROJECT_DIR$/src/main/java/datastructures/stack/SimpleStack.java" />
         <option value="$PROJECT_DIR$/src/main/java/datastructures/stack/LinkedStack.java" />
         <option value="$PROJECT_DIR$/src/main/java/datastructures/queue/LinkedQueue.java" />
         <option value="$PROJECT_DIR$/src/test/java/datastructures/queue/LinkedQueueTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/datastructures/stack/LinkedStackTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/interview/Successor.java" />
+        <option value="$PROJECT_DIR$/src/main/java/interview/Inter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/interview/Interview.java" />
+        <option value="$PROJECT_DIR$/src/main/java/datastructures/linkedlist/FirstLinkedList.java" />
+        <option value="$PROJECT_DIR$/src/main/java/datastructures/linkedlist/SortedLinkedList.java" />
+        <option value="$PROJECT_DIR$/src/test/java/datastructures/linkedlist/SortedLinkedListTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/datastructures/linkedlist/FirstLinkedListTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/datastructures/linkedlist/FirstLastLinkedListTest.java" />
       </list>
     </option>
   </component>
@@ -163,6 +165,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
@@ -195,78 +199,6 @@
               <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="datastructures" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="stack" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MyTasks" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MyTasks" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="datastructures" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="queue" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MyTasks" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MyTasks" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="datastructures" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -331,73 +263,11 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="datastructures" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MyTasks" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MyTasks" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="datastructures" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="queue" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MyTasks" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MyTasks" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="datastructures" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="linkedlist" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -420,8 +290,8 @@
       <recent name="C:\Users\Влад\IdeaProjects\MyTasks\src\main\resources\files" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.LinkedStackTest">
-    <configuration default="false" name="FirstLinkedListTest.testRemoveFirst" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.FirstLinkedListTest">
+    <configuration default="false" name="SortedLinkedListTest.testAddWithCustomComparator" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="datastructures.linkedlist.*" />
@@ -432,8 +302,8 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="datastructures.linkedlist" />
-      <option name="MAIN_CLASS_NAME" value="datastructures.linkedlist.FirstLinkedListTest" />
-      <option name="METHOD_NAME" value="testRemoveFirst" />
+      <option name="MAIN_CLASS_NAME" value="datastructures.linkedlist.SortedLinkedListTest" />
+      <option name="METHOD_NAME" value="testAddWithCustomComparator" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -473,18 +343,18 @@
       <patterns />
       <method />
     </configuration>
-    <configuration default="false" name="LinkedStackTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="FirstLinkedListTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="datastructures.stack.*" />
+          <option name="PATTERN" value="datastructures.linkedlist.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <module name="MyTasks" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="datastructures.stack" />
-      <option name="MAIN_CLASS_NAME" value="datastructures.stack.LinkedStackTest" />
+      <option name="PACKAGE_NAME" value="datastructures.linkedlist" />
+      <option name="MAIN_CLASS_NAME" value="datastructures.linkedlist.FirstLinkedListTest" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -499,20 +369,20 @@
       <patterns />
       <method />
     </configuration>
-    <configuration default="false" name="LinkedQueueTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="FirstLinkedListTest.testRemove" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="datastructures.queue.*" />
+          <option name="PATTERN" value="datastructures.linkedlist.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <module name="MyTasks" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="datastructures.queue" />
-      <option name="MAIN_CLASS_NAME" value="datastructures.queue.LinkedQueueTest" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="PACKAGE_NAME" value="datastructures.linkedlist" />
+      <option name="MAIN_CLASS_NAME" value="datastructures.linkedlist.FirstLinkedListTest" />
+      <option name="METHOD_NAME" value="testRemove" />
+      <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
@@ -525,19 +395,19 @@
       <patterns />
       <method />
     </configuration>
-    <configuration default="false" name="LinkedStackTest.pushTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="FirstLastLinkedListTest.testRemove" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="datastructures.stack.*" />
+          <option name="PATTERN" value="datastructures.linkedlist.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <module name="MyTasks" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="datastructures.stack" />
-      <option name="MAIN_CLASS_NAME" value="datastructures.stack.LinkedStackTest" />
-      <option name="METHOD_NAME" value="pushTest" />
+      <option name="PACKAGE_NAME" value="datastructures.linkedlist" />
+      <option name="MAIN_CLASS_NAME" value="datastructures.linkedlist.FirstLastLinkedListTest" />
+      <option name="METHOD_NAME" value="testRemove" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -988,19 +858,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.FirstLinkedListTest.testRemoveFirst" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.SortedLinkedListTest.testAddWithCustomComparator" />
       <item index="1" class="java.lang.String" itemvalue="JUnit.FirstLastLinkedListTest" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.LinkedStackTest" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.LinkedQueueTest" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.LinkedStackTest.pushTest" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.FirstLinkedListTest" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.FirstLinkedListTest.testRemove" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.FirstLastLinkedListTest.testRemove" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.LinkedStackTest" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.LinkedStackTest.pushTest" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.LinkedQueueTest" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.FirstLastLinkedListTest" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.FirstLinkedListTest.testRemoveFirst" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.FirstLinkedListTest" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.FirstLastLinkedListTest" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.FirstLinkedListTest.testRemove" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.FirstLastLinkedListTest.testRemove" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.SortedLinkedListTest.testAddWithCustomComparator" />
       </list>
     </recent_temporary>
   </component>
@@ -1049,7 +919,11 @@
       <workItem from="1490517150597" duration="19000" />
       <workItem from="1491068542234" duration="4600000" />
       <workItem from="1491126854713" duration="223000" />
-      <workItem from="1491745607304" duration="3635000" />
+      <workItem from="1491745607304" duration="4017000" />
+      <workItem from="1491825437005" duration="81000" />
+      <workItem from="1492187146362" duration="2545000" />
+      <workItem from="1492247075420" duration="1408000" />
+      <workItem from="1492261609151" duration="5073000" />
     </task>
     <task id="LOCAL-00001" summary="Added tasks about collatz conjecture and merge sorting">
       <created>1485356335439</created>
@@ -1156,43 +1030,50 @@
       <option name="project" value="LOCAL" />
       <updated>1491747825476</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="- Added realizations of a stack and a queue via appropriate linked lists&#10;  * LinkedStack&#10;  * LinkedQueue&#10;- Added an overall interface for all stack realizations&#10;- Added tests for LinkedStack and LinkedQueue">
+      <created>1491749402470</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1491749402470</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="FirstLastLinkedListTest - 2017.04.09 at 17h 21m 31s.xml">
+    <history-entry file="FirstLastLinkedListTest - 2017.04.15 at 17h 13m 21s.xml">
       <configuration name="FirstLastLinkedListTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FirstLinkedListTest_testRemoveFirst - 2017.04.09 at 17h 04m 31s.xml">
-      <configuration name="FirstLinkedListTest.testRemoveFirst" configurationId="JUnit" />
+    <history-entry file="FirstLastLinkedListTest - 2017.04.15 at 17h 31m 46s.xml">
+      <configuration name="FirstLastLinkedListTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LinkedQueueTest - 2017.04.09 at 17h 46m 30s.xml">
-      <configuration name="LinkedQueueTest" configurationId="JUnit" />
+    <history-entry file="FirstLastLinkedListTest_testRemove - 2017.04.15 at 17h 22m 09s.xml">
+      <configuration name="FirstLastLinkedListTest.testRemove" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LinkedQueueTest - 2017.04.09 at 17h 46m 44s.xml">
-      <configuration name="LinkedQueueTest" configurationId="JUnit" />
+    <history-entry file="FirstLinkedListTest - 2017.04.15 at 17h 16m 48s.xml">
+      <configuration name="FirstLinkedListTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LinkedStackTest - 2017.04.09 at 17h 36m 36s.xml">
-      <configuration name="LinkedStackTest" configurationId="JUnit" />
+    <history-entry file="FirstLinkedListTest - 2017.04.15 at 17h 31m 53s.xml">
+      <configuration name="FirstLinkedListTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LinkedStackTest - 2017.04.09 at 17h 46m 50s.xml">
-      <configuration name="LinkedStackTest" configurationId="JUnit" />
+    <history-entry file="FirstLinkedListTest_testRemove - 2017.04.15 at 17h 17m 55s.xml">
+      <configuration name="FirstLinkedListTest.testRemove" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LinkedStackTest - 2017.04.09 at 17h 47m 44s.xml">
-      <configuration name="LinkedStackTest" configurationId="JUnit" />
+    <history-entry file="FirstLinkedListTest_testRemove - 2017.04.15 at 17h 21m 59s.xml">
+      <configuration name="FirstLinkedListTest.testRemove" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LinkedStackTest_pushTest - 2017.04.09 at 17h 47m 39s.xml">
-      <configuration name="LinkedStackTest.pushTest" configurationId="JUnit" />
+    <history-entry file="FirstLinkedListTest_testRemove - 2017.04.15 at 17h 25m 26s.xml">
+      <configuration name="FirstLinkedListTest.testRemove" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SimpleStackTest_simpleStackIsEmptyTest - 2017.03.17 at 18h 56m 07s.xml">
-      <configuration name="SimpleStackTest.simpleStackIsEmptyTest" configurationId="JUnit" />
+    <history-entry file="FirstLinkedListTest_testRemove - 2017.04.15 at 17h 25m 32s.xml">
+      <configuration name="FirstLinkedListTest.testRemove" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SimpleStackTest_simpleStackIsFullTest - 2017.03.17 at 18h 56m 04s.xml">
-      <configuration name="SimpleStackTest.simpleStackIsFullTest" configurationId="JUnit" />
+    <history-entry file="SortedLinkedListTest_testAddWithCustomComparator - 2017.04.15 at 17h 03m 07s.xml">
+      <configuration name="SortedLinkedListTest.testAddWithCustomComparator" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="109625000" />
+    <option name="totallyTimeSpent" value="119114000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1214,18 +1095,18 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32995737" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32998884" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32998884" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32998884" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32998884" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39910814" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -1279,11 +1160,12 @@
     <MESSAGE value=" - Added base interfaces for queue and linked list&#10; - Added realization of:&#10;   * simple queue with an array as a base&#10;   * priority queue&#10;   * linked list with an access from the beginning (need to test)&#10;- Added tests for:&#10;   * simple queue&#10;   * priority queue&#10;   *simple stack" />
     <MESSAGE value=" - Added realization of:&#10;   * linked list with a reference on the last element (need to test)&#10;- Added tests for:&#10;   * linked list with an access from the first element&#10;- Optimized the task about the merge sorting" />
     <MESSAGE value="- Added additional methods in:&#10;  * FirstLinkedList&#10;  * FirstLastLinkedList&#10;- Added tests for:&#10;  * new methods in FirstLinkedList&#10;  * FirstLastLinkedList methods" />
-    <option name="LAST_COMMIT_MESSAGE" value="- Added additional methods in:&#10;  * FirstLinkedList&#10;  * FirstLastLinkedList&#10;- Added tests for:&#10;  * new methods in FirstLinkedList&#10;  * FirstLastLinkedList methods" />
+    <MESSAGE value="- Added realizations of a stack and a queue via appropriate linked lists&#10;  * LinkedStack&#10;  * LinkedQueue&#10;- Added an overall interface for all stack realizations&#10;- Added tests for LinkedStack and LinkedQueue" />
+    <option name="LAST_COMMIT_MESSAGE" value="- Added realizations of a stack and a queue via appropriate linked lists&#10;  * LinkedStack&#10;  * LinkedQueue&#10;- Added an overall interface for all stack realizations&#10;- Added tests for LinkedStack and LinkedQueue" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="33" />
+      <option name="time" value="41" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1292,49 +1174,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/with/gui/notepad.java" />
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_77/src.zip!/java/awt/Color.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="271">
-          <caret line="710" column="17" selection-start-line="710" selection-start-column="11" selection-end-line="710" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/with/gui/notepad/ExceptionHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/with/gui/notepad/listeners/UndoListener.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="83" selection-start-line="9" selection-start-column="83" selection-end-line="9" selection-end-column="83" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/with/gui/notepad/listeners/FrameListener.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="10" column="21" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/with/gui/notepad/listeners/UndoMenuListener.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="11" column="69" selection-start-line="11" selection-start-column="69" selection-end-line="11" selection-end-column="69" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/with/gui/notepad/actions/UndoAction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="20" selection-start-line="20" selection-start-column="20" selection-end-line="20" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_77/src.zip!/javax/swing/text/StyledEditorKit.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="191">
@@ -1504,13 +1343,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_77/src.zip!/java/util/Comparator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-6188">
-          <caret line="108" column="17" selection-start-line="108" selection-start-column="17" selection-end-line="108" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/datastructures/queue/SimpleQueueTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="427">
@@ -1543,15 +1375,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="459">
           <caret line="27" column="20" selection-start-line="27" selection-start-column="20" selection-end-line="27" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/datastructures/linkedlist/FirstLinkedList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="281">
-          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1559,25 +1382,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
           <caret line="49" column="23" selection-start-line="49" selection-start-column="23" selection-end-line="49" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/datastructures/linkedlist/FirstLastLinkedListTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-374">
-          <caret line="10" column="21" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/datastructures/linkedlist/FirstLinkedListTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-473">
-          <caret line="21" column="32" selection-start-line="21" selection-start-column="32" selection-end-line="21" selection-end-column="32" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1585,10 +1389,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1530">
           <caret line="12" column="20" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
-          <folding>
-            <element signature="e#2680#2681#0" expanded="true" />
-            <element signature="e#2712#2713#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1596,7 +1396,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="11" column="15" selection-start-line="11" selection-start-column="15" selection-end-line="11" selection-end-column="15" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1604,7 +1403,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="690">
           <caret line="55" column="13" selection-start-line="55" selection-start-column="13" selection-end-line="55" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1612,7 +1410,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="11" column="23" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1620,7 +1417,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="539">
           <caret line="66" column="13" selection-start-line="66" selection-start-column="13" selection-end-line="66" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1628,20 +1424,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="629">
           <caret line="37" column="32" selection-start-line="37" selection-start-column="32" selection-end-line="37" selection-end-column="32" />
-          <folding>
-            <element signature="e#260#261#0" expanded="true" />
-            <element signature="e#316#317#0" expanded="true" />
-            <element signature="e#356#357#0" expanded="true" />
-            <element signature="e#403#404#0" expanded="true" />
-            <element signature="e#444#445#0" expanded="true" />
-            <element signature="e#488#489#0" expanded="true" />
-            <element signature="e#541#542#0" expanded="true" />
-            <element signature="e#584#585#0" expanded="true" />
-            <element signature="e#634#635#0" expanded="true" />
-            <element signature="e#677#678#0" expanded="true" />
-            <element signature="e#720#721#0" expanded="true" />
-            <element signature="e#760#761#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1649,9 +1431,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="10" column="18" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1659,9 +1438,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="10" column="20" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1669,6 +1445,92 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/interview.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/interview/Inter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/interview/Interview.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="4" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/interview/Successor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_77/src.zip!/java/util/Comparator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="149" column="8" selection-start-line="149" selection-start-column="8" selection-end-line="149" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_77/src.zip!/java/lang/Math.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1513">
+          <caret line="771" column="25" selection-start-line="771" selection-start-column="25" selection-end-line="771" selection-end-column="25" />
+          <folding>
+            <element signature="e#32010#32011#0" expanded="false" />
+            <element signature="e#32095#32096#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/datastructures/linkedlist/SortedLinkedList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="3" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/datastructures/linkedlist/SortedLinkedListTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="33" column="25" selection-start-line="33" selection-start-column="25" selection-end-line="33" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#364#365#0" expanded="true" />
+            <element signature="e#417#418#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/datastructures/linkedlist/FirstLinkedList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="68" column="49" selection-start-line="68" selection-start-column="49" selection-end-line="68" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/datastructures/linkedlist/FirstLinkedListTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="9" column="24" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/datastructures/linkedlist/FirstLastLinkedListTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
           <folding />
         </state>
       </provider>

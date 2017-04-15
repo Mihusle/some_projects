@@ -11,11 +11,13 @@ public class FirstLinkedListTest {
     
     private FirstLinkedList<Integer> linkedList;
     private int testValue;
+    private int anotherTestValue;
     
     @Before
     public void setUp() {
         linkedList = new FirstLinkedList<>();
         testValue = 1;
+        anotherTestValue = 2;
     }
     
     @Test
@@ -35,32 +37,20 @@ public class FirstLinkedListTest {
     
     @Test
     public void testGet() {
-        int anotherTestValue = 2;
-        for (int i = 0; i < 5; i++) {
-            if (i == 3) {
-                linkedList.add(anotherTestValue);
-            } else {
-                linkedList.add(testValue);
-            }
-        }
-        int actualValue = linkedList.get(5 - 3 - 1); //In order to take anotherTestValue from the list
+        int expectedSize = 5, expectedPosition = 1;
+        fillListWithAnotherValue(linkedList, expectedSize, expectedPosition);
+        int actualValue = linkedList.get(expectedPosition);
         Assert.assertEquals("Unexpected value after get", anotherTestValue, actualValue);
         Assert.assertEquals("Unexpected size of the list after get", 5, linkedList.size());
     }
     
     @Test
     public void testRemove() {
-        int anotherTestValue = 2;
-        for (int i = 0; i < 5; i++) {
-            if (i == 3) {
-                linkedList.add(anotherTestValue);
-            } else {
-                linkedList.add(testValue);
-            }
-        }
-        int actualValue = linkedList.remove(5 - 3 - 1); //In order to take anotherTestValue from the list.
+        int size = 5, expectedSize = size - 1, expectedPosition = 1;
+        fillListWithAnotherValue(linkedList, size, expectedPosition);
+        int actualValue = linkedList.remove(expectedPosition);
         Assert.assertEquals("Unexpected value after remove", anotherTestValue, actualValue);
-        Assert.assertEquals("Unexpected size of the list after remove", 4, linkedList.size());
+        Assert.assertEquals("Unexpected size of the list after remove", expectedSize, linkedList.size());
     }
     
     @Test
@@ -77,8 +67,19 @@ public class FirstLinkedListTest {
     
     @Test
     public void testIsEmpty() {
-        Assert.assertEquals("The list should be empty", true, linkedList.isEmpty());
+        Assert.assertTrue("The list should be empty", linkedList.isEmpty());
         linkedList.add(testValue);
-        Assert.assertEquals("The list shouldn't be empty", false, linkedList.isEmpty());
+        Assert.assertFalse("The list shouldn't be empty",linkedList.isEmpty());
+    }
+    
+    private void fillListWithAnotherValue(FirstLinkedList<Integer> linkedList, int size, int expectedPosition) {
+        for (int i = 0; i < size; i++) {
+            //Elements are put in the beginning of the list. So it's necessary to calculate the index of an insertion.
+            if (i == size - expectedPosition - 1) {
+                linkedList.add(anotherTestValue);
+            } else {
+                linkedList.add(testValue);
+            }
+        }
     }
 }
