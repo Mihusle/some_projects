@@ -35,11 +35,7 @@ public class FirstLastLinkedList<T> implements LinkedList<T> {
             if (index == 0) {
                 return first.getElement();
             } else {
-                Entry<T> currentEntry = first;
-                for (int i = 0; i < index; i++) {
-                    currentEntry = currentEntry.getNext();
-                }
-                return currentEntry.getElement();
+                return findEntryWithIndex(index).getElement();
             }
         }
         return null;
@@ -71,10 +67,7 @@ public class FirstLastLinkedList<T> implements LinkedList<T> {
     public T remove(int index) {
         if (!isEmpty()) {
             if (index == 0) {
-                Entry<T> temp = first;
-                first = first.getNext();
-                size--;
-                return temp.getElement();
+                removeFirst();
             } else {
                 Entry<T> currentEntry = first;
                 Entry<T> previousEntry = first;
@@ -112,6 +105,14 @@ public class FirstLastLinkedList<T> implements LinkedList<T> {
     @Override
     public boolean isEmpty() {
         return size == 0;
+    }
+    
+    private Entry<T> findEntryWithIndex(int index) {
+        Entry<T> currentEntry = first;
+        for (int i = 0; i < index; i++) {
+            currentEntry = currentEntry.getNext();
+        }
+        return currentEntry;
     }
     
     private class Entry<E> {
